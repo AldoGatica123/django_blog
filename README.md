@@ -9,7 +9,8 @@ There is a superuser to manage the site and a *normaluser*.
 
 ### Model structure
 
-####Post
+#### Post
+
 | title       | slug     | author | body | publish  | created  | updated  | status |
 |-------------|----------|--------|------|----------|----------|----------|--------|
 | VARCHAR 250 | SLUG 250 | USER   | TEXT | DATETIME | DATETIME | DATETIME | STATUS |
