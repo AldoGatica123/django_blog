@@ -19,6 +19,10 @@ There is a superuser to manage the site and a *normaluser*.
 ### Routes
 ```text
 /admin
+/blog
+    /post_list
+    /<year>/<month>/<day>/<slug>
+
 ```
 
 
