@@ -5,6 +5,7 @@ The project consists in a blog made from the chapters 1, 2 and 3 from the book D
 ## Description
 
 Currently the app only has a post model with the functionality to send as an email any published post and make comments.  
+Each post has tags that can be used to search more posts with the same tags.
 
 There is a superuser to manage the site and a *normaluser*.
 
@@ -29,6 +30,7 @@ There is a superuser to manage the site and a *normaluser*.
     /post_list
     /<year>/<month>/<day>/<slug>
     /<post_id>/share
+    /tag/<tag_slug>
 
 ```
 
